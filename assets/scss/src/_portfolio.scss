@@ -1,0 +1,49 @@
+// Style section Portfolio
+
+.container-portfolio {
+    width: 100%;
+    height: 800px;
+    @include flex (column, flex-start, center);
+    .title-portfolio {
+        text-align: center;
+        font-family: "Orbitron";
+        font-size: 4rem;
+        padding-top: 5%;
+    }    
+    .container-img-portfolio {
+        width: 100%;
+        height: 100%;
+        @include flex (row, center, center);
+        .item-portfolio {
+            width: 30%;
+            height: 100%;
+            @include flex (column, center, center);
+            .img-portfolio-the-resto {
+                width: 80%;
+                height:40%;
+                background-image: url(/assets/img/maquette-resto.png);
+                background-size: cover;
+                box-shadow: 1px 1px 30px black;
+            }
+            .img-portfolio-gaming-campus {
+                width: 80%;
+                height: 40%;
+                background-image: url(/assets/img/maquette-gaming.png);
+                background-size: cover;
+                box-shadow: 1px 1px 30px black;
+            }
+            .img-portfolio-arclabs {
+                width: 80%;
+                height: 40%;
+                background-image: url(/assets/img/maquette-Acr.png);
+                background-size: cover;
+                box-shadow: 1px 1px 30px black;
+            }
+            .title-items {
+                font-family: "Orbitron";
+                font-size: 2rem;
+                padding-top: 7%;
+            }
+        }
+    }
+}
