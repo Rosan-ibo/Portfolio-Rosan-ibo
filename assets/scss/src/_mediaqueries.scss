@@ -48,10 +48,91 @@
     .background-skill {
 
         .container-skill {
-            
+            padding-top: 14%;
             &>h2 {
                 font-size: 2rem;
             }    
+            .container-icon-skill {
+                @include flex (column, flex-start, center);
+                .icon-skill {
+                    font-size: 3rem;
+                    padding-top: 12%;
+                }    
+            }
+        }  
+    }
+    // responsive section portfolio
+
+    .container-portfolio {
+        .title-portfolio {
+            font-size: 2rem;
+            padding-top: 10%;
         }
+        .container-img-portfolio {
+            @include flex (column, center, center);
+            width: 80%;
+            .item-portfolio {
+                width: 80%;
+                padding-top: 10%;
+                .img-portfolio-the-resto {
+                    height:50%;
+                }
+                .img-portfolio-gaming-campus{
+                    height:50%;
+                }
+                .img-portfolio-arclabs {
+                    height:50%;
+                }
+                .title-items {
+                    font-size: 1rem;
+                    padding-top: 14%;
+                }
+            }
+        }
+    }
+    // responsive section contact
+    
+    .background-contact {
+        height: 750px;
+        .title-contact {
+            font-size: 2.5rem;
+            width: 100%;
+            padding-top: 14%;
+            padding-bottom: 14%;
+        }
+        .form-contact {
+            width: 80%;
+            .form-items {
+                padding-top: 15%;
+                &>input {
+                    height: 30px;
+                    font-size: 0.90rem;
+                }
+            }
+            .form-btn {
+                padding-top: 15%;
+            }
+            .icon-return {
+                padding-top: 10%;
+                font-size: 3rem;
+            }
+        }
+    }
+    // responsive footer
+
+    .container-footer {
+        height: 30px;
+        .text-footer {
+            width: 50%;
+            font-size: 0.45rem;
+
+        }
+        .container-icon-footer {
+            width:50%;
+            &>a {
+              color: $black;
+              font-size: 0.9rem;
+            }
+        }    
     }
 }
