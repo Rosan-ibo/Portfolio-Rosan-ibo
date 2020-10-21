@@ -1,0 +1,57 @@
+// Media Queries
+
+@media screen and (max-width: 420px) and (min-width: 366px) {
+    // responsive header
+    .container-header {
+        background-image: url(/assets/img/Groupe.png);
+        // background-color: $black;
+        height: 800px;
+        .nav-header {
+            display: none;  
+        }
+        .container-title {
+            .title {
+                &>h1 {
+                    font-size: 1.5rem;
+                    padding-bottom: 10%;
+                }
+                &>h2 {
+                    font-size: 2rem;
+                }
+            }
+        }   
+    }
+    // reponsive section about me
+    .container-about {
+        padding-top: 20%;
+        .title-about {
+            font-size: 2rem;
+            padding-bottom: 25%;
+        }
+        .text-about {
+            padding-top: 25%;
+            padding-bottom: 25%;
+            font-size: 1rem;
+        }
+        .btn-about {
+            
+            & span {
+                display: none;
+            }
+            & i {
+                display: none;
+            }
+        }
+    }
+    // responsive section skill
+
+    .background-skill {
+
+        .container-skill {
+            
+            &>h2 {
+                font-size: 2rem;
+            }    
+        }
+    }
+}

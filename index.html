@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/lib/fontawesome-free-5.15.1-web/css/all.css">
     <link rel="stylesheet" href="/assets/css/src/main.min.css">
-    <title>Portfolio-Rosan-ibo</title>
     <link rel="stylesheet" href="assets/css/">
+    <title>Portfolio-Rosan-ibo</title>
 </head>
 <body>
     <!-- Header -->
@@ -19,11 +19,12 @@
                 <li><a href="#contact ">Contact</a></li>
             </ul>
         </nav>
+        <div class="nav-responsive"></div>
         <!-- Titre -->
         <div class="container-title">
             <div class="title">
                 <h1>Rosan IBO</h1>
-                <h2>Dévlopeur web</h2>
+                <h2>Dévloppeur web</h2>
             </div>
         </div>    
     </header>
@@ -41,7 +42,7 @@
                 car j'ai toujours été intéresser par tous ce qui entouré le web et la programmation.</p>
             </div>
             <div class="btn-about">
-                <a href="/assets/doc/Ibo rosan (2).pdf" target="_blank">Mon cv</a>
+                <a href="/assets/doc/Ibo rosan (2).pdf" target="_blank"><span>Mon</span> cv</a>
                 <i class="fas fa-external-link-alt"></i>
             </div>    
         </div>
@@ -94,12 +95,45 @@
             </div>
         </div>
     </section>
-    <!-- section contact -->
+    <!-- Section contact -->
     <section id="contact">
         <div class="background-contact">
-            
-        </div>
+
+            <div class="title-contact">
+                    <h2>Me contacter</span></h2>
+            </div>
+            <form class="form-contact">
+                <div class="form-items">
+                    <label for="name"></label>
+                    <input type="text" id="name" name="name" placeholder="Votre nom*" >
+                </div>
+                <div class="form-items">
+                    <label for="email"></label>
+                    <input type="text" id="email" name="email" placeholder="Votre email*">
+                </div>
+                <div class="form-items">
+                    <label for="message"></label>
+                    <textarea name="message" id="message" placeholder="Votre message..."></textarea>
+                </div>
+                <div class="form-btn">
+                    <label for="submit"></label>
+                    <input type="submit" id="submit" name="name" placeholder="Evoyer" >
+                </div>
+                <div class="icon-return"><i class="fas fa-angle-up"></i></div>
+            </form>
+        </div>    
     </section>
+    <!-- footer -->
+    <footer>
+        <div class="container-footer">
+            <div class="text-footer">© 2020 - Rosan Ibo - Développeur web</div>
+            <div class="container-icon-footer">
+                    <a href="https://www.linkedin.com/in/rosan-ibo-9121081b8/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Rosan-ibo" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="mailto:rosaniboperso@gmail.com" target="_blank"><i class="fas fa-at"></i></a>
+            </div>
+        </div>
+    </footer>
     <script type="text/javascript" src="/assets/js/dist/scripts.min.js"></script>
 </body>
 </html>
