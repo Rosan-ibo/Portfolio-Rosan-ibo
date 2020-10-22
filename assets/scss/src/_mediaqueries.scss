@@ -5,7 +5,27 @@
     .container-header {
         background-image: url(/assets/img/Groupe.png);
         // background-color: $black;
-        height: 800px;
+        height: 812px;
+        .container-hamburger {
+            position: fixed;
+                font-size: 2rem;
+                right: 10px;
+                top: 10px;
+                text-align: end;
+            .hamburger-nav {
+                color: $black;
+    
+                &>:hover {
+                    cursor: pointer;
+                }
+                .list-hambuger {
+                    
+                    li>a {
+                        text-decoration: none;
+                    }
+                }
+            }
+        }   
         .nav-header {
             display: none;  
         }
@@ -23,9 +43,10 @@
     }
     // reponsive section about me
     .container-about {
-        padding-top: 20%;
+        height: 812px;
         .title-about {
             font-size: 2rem;
+            padding-top: 20%;
             padding-bottom: 25%;
         }
         .text-about {
@@ -46,7 +67,7 @@
     // responsive section skill
 
     .background-skill {
-
+        
         .container-skill {
             padding-top: 14%;
             &>h2 {
@@ -64,6 +85,7 @@
     // responsive section portfolio
 
     .container-portfolio {
+        height: 812px;
         .title-portfolio {
             font-size: 2rem;
             padding-top: 10%;
@@ -93,7 +115,7 @@
     // responsive section contact
     
     .background-contact {
-        height: 750px;
+        height: 812px;
         .title-contact {
             font-size: 2.5rem;
             width: 100%;

@@ -18,12 +18,18 @@
             width: 80%;
             @include flex (row, space-evenly, center);
             flex-wrap: wrap;
+            position: relative;
             .icon-skill {
                 padding-top: 7%;
                 width: 25%;
                 font-size: 10rem;
-                
+                &>:hover {
+                    cursor: pointer;
+                }
             }   
         }    
     }
 }
+.clic-icon{
+    transform: scale(1.5,1.5);
+  }
