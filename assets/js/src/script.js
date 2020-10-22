@@ -22,7 +22,7 @@ showLetters();
 
 
 
-
+// animation menu hamburger
 (function($) {
 
     const containerHambuger= $('.container-hamburger');
@@ -44,6 +44,8 @@ $(document).ready(function() {
         $(menuBar).fadeToggle();
     });
 })
+
+// animation icon compétences
 
     $(document).ready(function(){
         $('.icon-skill').on('click', function() {
